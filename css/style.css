@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.areaGamer {
+    background: #444;
+    background-image: url(../img/fundo_madeira.JPG);
+    width: 80vw;
+    height: 80vh;
+    position: fixed;
+
+}
+
+.bloco{ 
+    background-image: url(../img/inseto.png);
+    background-size: cover;
+    width:48px; 
+    height:48px; 
+}
+
+.pontosmarcados {
+    background: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
