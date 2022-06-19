@@ -4,6 +4,10 @@ body {
     align-items: top;
 }
 
+.ocultar {
+    display: none;
+}
+
 .areaGamer {
     background: #444;
     background-image: url(../img/fundo_madeira.JPG);
@@ -14,10 +18,13 @@ body {
 }
 
 .bloco{ 
-    background-image: url(../img/inseto.png);
     background-size: cover;
     width:48px; 
     height:48px; 
+}
+
+.bloco img {
+    width: 100%;
 }
 
 .pontosmarcados {
@@ -30,4 +37,37 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+}
+
+.mascara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.mensagem {
+    width: 50%;
+    height: 40%;
+    background: #f00;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .areaGamer {
+    background: #444;
+    background-image: url(../img/fundo_madeira.JPG);
+    width: 40vw;
+    height: 80vh;
+    position: fixed;
+
+}
 }
