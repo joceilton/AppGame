@@ -24,7 +24,7 @@
         $(".mascara").addClass(".ocultar")
     }, 3000)
             
-    atualiza(50)
+    atualiza(3)
 
     $(".bloco.habilitar").on("click", function() {
         var bloco = $(this)
@@ -36,7 +36,7 @@
             bloco.find("img").attr("src", "img/inseto.png")
             bloco.addClass("habilitar")
             acertos += 1
-        }, 15)
+        }, 50)
     })
     
 
