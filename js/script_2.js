@@ -24,7 +24,7 @@
         $(".mascara").addClass(".ocultar")
     }, 3000)
             
-    atualiza(3)
+    atualiza(18)
 
     $(".bloco.habilitar").on("click", function() {
         var bloco = $(this)
